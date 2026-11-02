@@ -341,3 +341,58 @@ header{
         font-size: 14px;
     }
 }
+
+.section6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+}
+.s6{
+    width: 90%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 100%;
+    }
+
+    .location-box{
+        width: 90%;
+        background-color: #fff;
+        position: relative;
+        top: -215px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 16px;
+        height: 190px;
+
+        h1{
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        input{
+            padding: 15px;
+            border: none;
+            background-color: #FAFAFA;
+            position: relative;
+            width: 260px;
+            border-radius: 50px;
+            outline: none;
+        }
+        button{
+            position: relative;
+            padding: 15px;
+            border: none;
+            background-color: #24AB70;
+            color: #fff;
+            border-radius: 50px;
+            width: 110px;
+            left: -40px;
+        }
+    }
+}
