@@ -7,24 +7,27 @@
 header{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
     margin-left: 200px;
     margin-top: 30px;
     button{
         margin-left: 400px;
-        padding: 7px;
+        padding: 9px;
         background-color: #24AB70;
         color: #fff;
         font-size: 13px;
         border: none;
         border-radius: 50px;
-        width: 60px;
+        width: 70px;
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
         cursor: pointer;
         transition: 0.2s;
+    }
+    button:hover{
+        opacity: 60%;
     }
     .header-links{
         display: flex;
@@ -34,6 +37,10 @@ header{
         text-decoration: none;
         color: #222222;
         font-size: 14px;
+    }
+    a:hover{
+        text-decoration: underline;
+        color: #24AB70;
     }
 }
 .section1{
@@ -124,6 +131,11 @@ header{
         gap: 10px;
         color: #fff;
         font-size: 15px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    button:hover{
+        opacity: 50%;
     }
     .b4{
         border: none;
@@ -165,6 +177,11 @@ header{
         margin-top: -20px;
         cursor: pointer;
         transition: 0.2s;
+    }
+    button:hover{
+        background-color: #24ab716c;
+        color: #7fffc8e4;
+        
     }
 }
 .s2-images{
@@ -234,6 +251,9 @@ header{
             cursor: pointer;
             transition: 0.2s;
         }
+        button:hover{
+            opacity: 50%;
+        }
     }
 
     .box-s3{
@@ -296,6 +316,9 @@ header{
             margin-top: 40px;
             cursor: pointer;
             transition: 0.2s;
+        }
+        button:hover{
+            opacity: 50%;
         }
     }
 }
@@ -393,6 +416,44 @@ header{
             border-radius: 50px;
             width: 110px;
             left: -40px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        button:hover{
+            opacity: 50%;
         }
     }
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.info-footer{
+    display: flex;
+    gap: 130px;
+
+    h2{
+        font-weight: 500;
+    }
+    p{
+        color: #555555;
+        margin-top: 15px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    p:hover{
+        color: black;
+        text-decoration: underline;
+    }
+}
+.s-icons{
+    display: flex;
+    gap: 20px;
+}
+.p-l:hover{
+    text-decoration: none !important;
+    color: #555555 !important;
+    cursor: text !important;
 }
