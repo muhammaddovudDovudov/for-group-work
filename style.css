@@ -1,0 +1,208 @@
+*{
+    font-family: "Open Sans",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-left: 200px;
+    margin-top: 30px;
+    button{
+        margin-left: 400px;
+        padding: 7px;
+        background-color: #24AB70;
+        color: #fff;
+        font-size: 13px;
+        border: none;
+        border-radius: 50px;
+        width: 60px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    .header-links{
+        display: flex;
+        gap: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: #222222;
+        font-size: 14px;
+    }
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s1{
+    display: flex;
+    background-color: #24AB700A;
+    justify-content: center;
+    width: 80%;
+    border-radius: 50px 0px 0px 0;
+    padding-left: 50px;
+    height: 630px;
+    .house{
+        overflow: hidden;
+        width:50%;
+        height: 100%;
+    }
+
+    .find-text{
+        margin-top: 140px;
+        width: 50%;
+        h1{
+            font-size: 55px;
+            font-weight: 600;
+        }
+        p{
+            font-size: 18px;
+            margin-top: 20px;
+            line-height: 1.6;
+            color: #555555;
+        }
+        img{
+            margin-top: 20px;
+        }
+    }
+}
+.bs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    box-shadow: 0px 22px 38px 0px #00221314;
+    position: relative;
+    border-radius: 60px;
+    width: 75%;
+    height: 90px;
+    top: -150px;
+    padding-left: 20px;
+    background-color: #fff;
+    .b1, .b2, .b3, .b4{
+        display: flex;
+        border-right: 1.6px solid #E8E8E8;
+        padding-right: 17px;
+        img{
+            width: 23px;
+            margin-top: -24px;
+            margin-right: 10px;
+        }
+        p{
+            color: #555555;
+            font-size: 13px;
+        }
+        h3{
+            font-weight: 500;
+        }
+    }
+    button{
+        position: relative;
+        height: 100%;
+        width: 199px;
+        border-radius: 50px;
+        border: none;
+        background-color:#24AB70;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        color: #fff;
+        font-size: 15px;
+    }
+    .b4{
+        border: none;
+    }
+}
+
+.container{
+    max-width: 1260px;
+    margin: auto;
+}
+.section2{
+
+    h1{
+        font-size: 35px;
+        font-weight: 500;
+        margin-left: 75px;
+        margin-bottom: 25px;
+    }
+    p{
+        color: #555555;
+        margin-left: 75px;
+        margin-bottom: 30px;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+}
+.p-s{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    button{
+        margin-right: 100px;
+        width: 90px;
+        padding: 8px;
+        border: none;
+        background-color: #24AB701A;
+        color: #24AB70;
+        border-radius: 50px;
+        margin-top: -20px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+}
+.s2-images{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.img1, .img2, .img3{
+    width: 28%;
+    background-color: #FAFAFA;
+    height: 400px;
+    h2{
+        font-size: 22px;
+        font-weight: 500;
+        margin-bottom: 15px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+    p{
+        margin-bottom: 10px;
+        margin-left: 20px;
+        color: #24AB70;
+        font-size: 11px;
+    }
+    .sss{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        img{
+            margin-left: 60px;
+            width: 100px;
+        }
+    }
+    span{
+        margin-left: 20px;
+        font-size: 14px;
+    }
+}
+.houses{
+    width: 100%;
+}
