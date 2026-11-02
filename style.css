@@ -231,6 +231,8 @@ header{
             color: #fff;
             border-radius: 50px;
             margin-top: 50px;
+            cursor: pointer;
+            transition: 0.2s;
         }
     }
 
@@ -255,6 +257,45 @@ header{
         }
     }
 }
-/* .box-s3{
+.section4{
     display: flex;
-} */
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.s4{
+    display: flex;
+    background-color: #F4FBF8;
+    width: 85%;
+    border-radius: 16px;
+    img{
+        width: 500px;
+    }
+
+    .discover-text{
+        margin-top: 80px;
+        margin-left: 70px;
+
+        h1{
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-size: 35px;
+        }
+        p{
+            color: #555555;
+            font-size: 14px;
+        }
+        button{
+            padding: 15px;
+            border: none;
+            background-color: #24AB70;
+            color: #fff;
+            border-radius: 50px;
+            width: 35%;
+            font-size: 15px;
+            margin-top: 40px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+    }
+}
